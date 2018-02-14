@@ -1,0 +1,34 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1.name {
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+h2.email {
+  margin: 5px 0;
+  text-align: center;
+}
+
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #00c;
+}
+
+.whereabouts a .fab, .whereabouts a:visited .fab, .whereabouts a:hover .fab, .whereabouts a:active .fab {
+  color: #333;
+}
+
+ul.whereabouts {
+  list-style: none;
+  text-align: center;
+}
+
+ul.whereabouts li {
+  display: inline-block;
+  margin: 0 1em;
+}
