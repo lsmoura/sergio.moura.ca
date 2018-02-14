@@ -48,3 +48,14 @@ ul.whereabouts li {
   display: inline-block;
   padding: 0.2em 0.5em;
 }
+
+.profile-description {
+  margin: 0.5em auto;
+  padding: 4px 1em;
+  max-width: 600px;
+}
+
+.profile-description p {
+  margin: 4px 0;
+  line-height: 1.6em;
+}
