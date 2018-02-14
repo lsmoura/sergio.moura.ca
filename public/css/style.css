@@ -38,11 +38,13 @@ a, a:visited, a:hover, a:active {
 }
 
 ul.whereabouts {
+  margin: 16px 0;
+  padding: 0;
   list-style: none;
   text-align: center;
 }
 
 ul.whereabouts li {
   display: inline-block;
-  margin: 0 1em;
+  padding: 0.2em 0.5em;
 }

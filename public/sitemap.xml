@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://sergio.moura.ca/</loc>
+        <lastmod></lastmod>
+        <changefreq>1</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://sergio.moura.ca/public_key.txt</loc>
+        <lastmod>2018-02-14</lastmod>
+        <changefreq>1</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>
