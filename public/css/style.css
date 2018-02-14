@@ -2,6 +2,20 @@ html, body {
   margin: 0;
   padding: 0;
   color: #333;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2, h3 {
+  font-weight: 400;
 }
 
 h1.name {
