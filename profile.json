@@ -1,0 +1,42 @@
+{
+  "author": "Sergio Moura",
+  "emailAddress": "sergio@moura.ca",
+  "analyticsId": "UA-66983210-5",
+  "siteRoot": "https://sergio.moura.ca",
+  "social": [
+    {
+      "url": "https://twitter.com/lsmoura",
+      "iconName": "twitter",
+      "label": "@lsmoura"
+    },
+    {
+      "url": "https://medium.com/@lsmoura",
+      "iconName": "medium",
+      "label": "lsmoura"
+    },
+    {
+      "url": "https://linkedin.com/in/luissergiomoura",
+      "iconName": "linkedin",
+      "label": "Sergio Moura"
+    },
+    {
+      "url": "https://facebook.com/lsmoura",
+      "iconName": "facebook",
+      "label": "lsmoura"
+    },
+    {
+      "url": "https://github.com/lsmoura",
+      "iconName": "github",
+      "label": "lsmoura"
+    },
+    {
+      "url": "https://instagram.com/paetho",
+      "iconName": "instagram",
+      "label": "@paetho"
+    }
+  ],
+  "location": {
+    "url": "https://www.openstreetmap.org/relation/2062153",
+    "label": "Kitchener, ON, Canada"
+  }
+}

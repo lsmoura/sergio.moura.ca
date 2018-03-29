@@ -1,0 +1,52 @@
+doctype html
+head
+  meta(charset="utf-8")
+  title Sergio Moura
+  meta(name="viewport",content="width=device-width, initial-scale=1.0")
+  meta(name="description",content=author + " personal profile information with email, social links and references")
+  meta(name="keywords",content="Profile,User Profile,References,Social,Contact")
+  meta(name="author",content=author)
+  link(rel="stylesheet",href="css/style.css",type="text/css")
+  link(rel="stylesheet",href="css/fontawesome-all.min.css",type="text/css")
+  link(rel="stylesheet",href="https://fonts.googleapis.com/css?family=Lato:300|Playfair+Display:400,700")
+  script(type="application/javascript",src="email.js")
+  script(async,src="https://www.googletagmanager.com/gtag/js?id=" + analyticsId)
+  script
+    | window.dataLayer = window.dataLayer || [];
+    | function gtag(){dataLayer.push(arguments);}
+    | gtag('js', new Date());
+    |
+    =`gtag('config', '${analyticsId}');`
+  link(rel="sitemap",type="application/xml",title="Sitemap",href="sitemap.xml")
+body
+  h1.name= author
+  if emailAddress
+    h2#email-container.email(data-address=Buffer.from(emailAddress).toString('base64'))
+
+  .profile-description
+    p Father, developer, gamer.
+    p.
+      Loves everything javascript.
+      Expert in ReactJS, Node.js, CouchDB, MongoDB, MySQL, MariaDB,
+      API endpoints, React Native, single page applications and more.
+    if location
+      p
+        a(href=location.url,target="_blank")
+          i.fas.fa-map-marker
+          | 
+          span= location.label
+
+  if social
+    ul.whereabouts
+      each entry in social
+        li
+          a(href=entry.url)
+            i(class="fab fab-" + entry.iconName)
+            span= entry.label
+            
+  ul.whereabouts
+    li
+      a(href="https://keybase.io/lsmoura") Keybase
+    li
+      span GPG public Key
+      a(href="public_key.txt") 0x756B861E641D73D8

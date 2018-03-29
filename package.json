@@ -1,0 +1,12 @@
+{
+  "name": "sergio.moura.ca",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@sergio-github:lsmoura/sergio.moura.ca.git",
+  "author": "Sergio Moura <sergio@moura.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "pug": "^2.0.3",
+    "xmlbuilder": "^9.0.7"
+  }
+}

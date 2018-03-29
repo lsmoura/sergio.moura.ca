@@ -49,6 +49,10 @@ ul.whereabouts li {
   padding: 0.2em 0.5em;
 }
 
+ul.whereabouts .fab {
+  margin-right: 1ex;
+}
+
 .profile-description {
   margin: 0.5em auto;
   padding: 4px 1em;
