@@ -27,8 +27,8 @@ body
     p Father, developer, gamer.
     p.
       Loves everything javascript.
-      Expert in ReactJS, Node.js, CouchDB, MongoDB, MySQL, MariaDB,
-      API endpoints, React Native, single page applications and more.
+      Expert in Go, ReactJS, Node.js, PostgreSQL, CouchDB, MongoDB, MySQL, 
+      MariaDB, API endpoints, React Native, single page applications and more.
     if location
       p
         a(href=location.url,target="_blank")
@@ -41,7 +41,7 @@ body
       each entry in social
         li
           a(href=entry.url)
-            i(class="fab fab-" + entry.iconName)
+            i(class="fab fa-" + entry.iconName)
             span= entry.label
             
   ul.whereabouts

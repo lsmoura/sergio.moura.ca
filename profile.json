@@ -5,11 +5,6 @@
   "siteRoot": "https://sergio.moura.ca",
   "social": [
     {
-      "url": "https://twitter.com/lsmoura",
-      "iconName": "twitter",
-      "label": "@lsmoura"
-    },
-    {
       "url": "https://medium.com/@lsmoura",
       "iconName": "medium",
       "label": "lsmoura"
@@ -20,23 +15,13 @@
       "label": "Sergio Moura"
     },
     {
-      "url": "https://facebook.com/lsmoura",
-      "iconName": "facebook",
-      "label": "lsmoura"
-    },
-    {
       "url": "https://github.com/lsmoura",
       "iconName": "github",
       "label": "lsmoura"
-    },
-    {
-      "url": "https://instagram.com/paetho",
-      "iconName": "instagram",
-      "label": "@paetho"
     }
   ],
   "location": {
-    "url": "https://www.openstreetmap.org/relation/2062153",
-    "label": "Kitchener, ON, Canada"
+    "url": "https://www.openstreetmap.org/relation/7485368",
+    "label": "London, ON, Canada"
   }
 }

@@ -1,12 +1,16 @@
 {
   "name": "sergio.moura.ca",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "git@sergio-github:lsmoura/sergio.moura.ca.git",
   "author": "Sergio Moura <sergio@moura.ca>",
   "license": "MIT",
+  "scripts": {
+    "build": "node ./src/index.js",
+    "publish": "surge public/ sergio.moura.ca"
+  },
   "dependencies": {
-    "pug": "^2.0.3",
-    "xmlbuilder": "^9.0.7"
+    "pug": "^3.0.2",
+    "xmlbuilder": "^15.1.1"
   }
 }
