@@ -3,6 +3,10 @@
   "emailAddress": "sergio@moura.ca",
   "analyticsId": "UA-66983210-5",
   "siteRoot": "https://sergio.moura.ca",
+  "description": [
+      "Father, developer, gamer.",
+      "Loves everything programming.\nExpert in Go, JavaScript and Databases (SQL or noSQL: PostgreSQL, CouchDB, MongoDB, MySQL, MariaDB, BigQuery).\nExperienced in many frameworks including ReactJS, Node.js, Microservices, API endpoints, React Native, single page applications and more."
+  ],
   "social": [
     {
       "url": "https://medium.com/@lsmoura",

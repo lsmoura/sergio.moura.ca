@@ -24,11 +24,8 @@ body
     h2#email-container.email(data-address=Buffer.from(emailAddress).toString('base64'))
 
   .profile-description
-    p Father, developer, gamer.
-    p.
-      Loves everything javascript.
-      Expert in Go, ReactJS, Node.js, PostgreSQL, CouchDB, MongoDB, MySQL, 
-      MariaDB, API endpoints, React Native, single page applications and more.
+    each entry in description
+      p= entry
     if location
       p
         a(href=location.url,target="_blank")

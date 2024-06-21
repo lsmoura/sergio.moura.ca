@@ -29,7 +29,7 @@ const sitemap = {
     url: [
       {
         loc: profile.siteRoot,
-        lastmod: '2024-05-03',
+        lastmod: '2024-06-21',
         changefreq: 1,
         priority: 0.5,
       },
